@@ -21,10 +21,10 @@ export default () => ({ // eslint-disable-line
     url: '/foo',
   },
 
-  relatedArticle: {
-    text: 'Find out more »',
-    url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
-  },
+  // relatedArticle: {
+  //   text: 'Find out more »',
+  //   url: 'https://en.wikipedia.org/wiki/Politics_and_the_English_Language',
+  // },
 
   mainImage: {
     title: '',
