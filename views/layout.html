@@ -7,6 +7,7 @@
     {% block prependhead %}{% endblock -%}
     {% include "includes/html-head.html" %}
     {% block appendhead %}{% endblock -%}
+
   </head>
   <body>
 
@@ -32,14 +33,48 @@
 
               {% include "includes/article-head.html" %}
               {% endblock %}
-
+            
             </header>
           </div>
         </div>
         <div class="article-body o-typography-body-wrapper" itemprop="articleBody">
 
-          {% block article_body %}{% endblock %}
+          {% block article_body %}
 
+          {% endblock %}
+          <div class="ss-form"><form action="https://docs.google.com/a/ft.com/forms/d/e/1FAIpQLSeZNnHqSzAzG_4diGGnYZWO1_chzij97dBQLcXplysg3CGSsw/formResponse" method="POST" id="ss-form" target="_self" onsubmit=""><ol role="list" class="ss-question-list" style="padding-left: 0;">
+
+      <div class="ss-form-question errorbox-good" role="listitem">
+      <div dir="auto" class="ss-item  ss-radio"><div class="ss-form-entry">
+      <label class="ss-q-item-label" for="entry_1345794642"><div class="ss-q-title">How is Britain doing after Brexit
+      </div>
+      <div class="ss-q-help ss-secondary-text" dir="auto"></div></label>
+
+
+      <ul class="ss-choices" role="radiogroup" aria-label="How is Britain doing after Brexit  "><li class="ss-choice-item">
+      <label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1904303471" value="Good" id="group_1904303471_1" role="radio" class="ss-q-radio" aria-label="Good"></span>
+      <span class="ss-choice-label">Good</span>
+      </label></li> <li class="ss-choice-item">
+      <label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1904303471" value="Bad" id="group_1904303471_2" role="radio" class="ss-q-radio" aria-label="Bad"></span>
+      <span class="ss-choice-label">Bad</span>
+      </label></li> <li class="ss-choice-item">
+      <label><span class="ss-choice-item-control goog-inline-block"><input type="radio" name="entry.1904303471" value="I&#39;m foreign therefore I don&#39;t know" id="group_1904303471_3" role="radio" class="ss-q-radio" aria-label="I&#39;m foreign therefore I don&#39;t know"></span>
+      <span class="ss-choice-label">I&#39;m foreign therefore I don&#39;t know</span>
+      </label></li></ul>
+      <div class="error-message" id="1345794642_errorMessage"></div>
+      <div class="required-message">This is a required question</div></div></div></div>
+      <input type="hidden" name="draftResponse" value="[,,&quot;6265439214491252318&quot;]
+      ">
+      <input type="hidden" name="pageHistory" value="0">
+
+
+
+      <input type="hidden" name="fbzx" value="6265439214491252318">
+      <div class="ss-send-email-receipt" style="margin-bottom: 4px;" dir="ltr"><label for="emailReceipt" style="display:inline;"></label></div>
+      <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+      <input type="submit" name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action ">
+      </td>
+      </tr></tbody></table></div></ol></form></div>
           <footer class="o-typography-footer" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
             <small><a href="http://www.ft.com/servicestools/help/copyright" data-trackable="link-copyright">Copyright</a>
   					<span itemprop="name">The Financial Times</span> Limited 2016. All rights reserved. You may share using our article tools. Please don't cut articles from FT.com and redistribute by email or post to the web.</small>
