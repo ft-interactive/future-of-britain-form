@@ -1,21 +1,40 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
+.article-body {
+      margin: 3em auto 1em;
+}
+
 
 .intro::first-letter {
-  font-size: 200%;
+  float: left;
+  padding-right: 8px;
+  font-size: 400%;
+
 }
 
 .intro {
-  margin: 0.75em auto;
+  margin: 2em auto 0;
 }
+
+.o-typography-body-wrapper p {
+  font: 19px/1.5 Georgia,serif;
+
+}
+
 // Form styles
+.required-message{
+  font-family: MetricWeb,sans-serif;
+  color:#c00;
+  font-size: 16px;
+}
+
 .ss-q-title {
   font-family: MetricWeb,sans-serif;
   display: block;
-  margin: 20px 0 4px 0;
+  margin: 25px 0 4px 0;
   padding: 0;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 22px;
   font-weight: 600;
   color: #505050;
@@ -29,10 +48,32 @@
     display: block;
     font-family: MetricWeb,sans-serif;
     margin-top: -2px;
-    margin-bottom: 4px;
-    color: #333;
-    font-size: 14px;
+    margin-bottom: 6px;
+    color: #777777;
+    font-size: 16px;
     line-height: 18px;
+}
+
+input[type=text]{
+  border: 1px solid #cec6b9;
+  border-radius: 2px;
+  min-width: 280px;
+}
+
+textarea {
+   border: 1px solid #cec6b9;
+  border-radius: 2px;
+  min-width: 100%;
+}
+
+.ss-choice-item input[type=radio]{
+  background-color: red;
+}
+
+.error-message{
+  font-family: MetricWeb,sans-serif;
+  color:#c00;
+  font-size: 16px;
 }
 
 .ss-choice-label{
@@ -42,8 +83,20 @@
   line-height: 20px;
 }
 
+
 .o-typography-body-wrapper ul{
   list-style-type: none;
+ }
+
+ .o-typography-body-wrapper h2 {
+      margin-top: 35px;
+ }
+
+ .ss-section-description{
+  font-family: MetricWeb,sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  color: #777777;
  }
 
 .jfk-button{
@@ -54,7 +107,7 @@
     border-color: #27757b;
     background-size: 18px;
     margin: 28px auto 10px;
-    min-height: 36px;
+    min-height: 39px;
     min-width: 280px;
     padding: 8px 18px 8px 18px;
     font-size: 18px;
@@ -64,15 +117,15 @@
 
 }
 
-.jfk-button:hover{
-  border-color: #2bbbbf;
-}
-
-    .jfk-button:visited{
-    color: #1d1d1d;
-    background-color: #2bbbbf!important;
+  .jfk-button:hover{
     border-color: #2bbbbf;
-    }
+  }
+
+  .jfk-button:visited{
+   color: #1d1d1d;
+   background-color: #2bbbbf!important;
+   border-color: #2bbbbf;
+   }
 
 // Aleks's changes (Desktop styles)
 
