@@ -128,43 +128,52 @@ textarea {
    }
 
 // Aleks's changes (Desktop styles)
+@media only screen and (min-width: 740px) {
 
-.o-typography-heading1 {
-    font-family: FinancierDisplayWeb,serif;
-    line-height: 58px;
-    font-size: 58px;
-    font-weight: 500;
-    margin: 0 0 8px;
+
+
 }
 
-.o-header__row.o-header__top {
-  position: absolute;
-  top: 0;
-  text-align: center;
-}
+@media only screen and (min-width: 980px) {
 
-figure {
-  width: 100vw;
-  margin: 0;
-  position: relative;
-}
+  .o-typography-heading1 {
+      font-family: FinancierDisplayWeb,serif;
+      line-height: 58px;
+      font-size: 58px;
+      font-weight: 500;
+      margin: 0 0 8px;
+  }
 
-.article-head {
-  color: #fff;
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0) 7%,rgba(0,0,0,0.44) 67%,rgba(0,0,0,0.65) 96%);
-}
+  .o-header__row.o-header__top {
+    position: absolute;
+    top: 0;
+    text-align: center;
+  }
 
-.top-overlaid {
-  position: absolute;
-  bottom: 20px;
-  color: #fff;
-  width: 100vw;
-  padding: 0 50px 0 50px;
-}
+  figure {
+    width: 100vw;
+    margin: 0;
+    position: relative;
+  }
 
-.o-typography-lead{
-  font-size: 26px;
-  line-height: 28px;
-  font-weight: normal;
-  max-width: 610px;
+  .article-head {
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0) 7%,rgba(0,0,0,0.44) 67%,rgba(0,0,0,0.65) 96%);
+  }
+
+  .top-overlaid {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    width: 100vw;
+    padding: 0 50px 0 50px;
+  }
+
+  .o-typography-lead{
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: normal;
+    max-width: 610px;
+  }
+
 }
