@@ -1,6 +1,7 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
+
 .intro::first-letter {
   font-size: 200%;
 }
@@ -45,6 +46,33 @@
   list-style-type: none;
  }
 
+.jfk-button{
+    font-family: MetricWeb,sans-serif;
+    color: #fff;
+    border-style: none;
+    background-color: #27757b;
+    border-color: #27757b;
+    background-size: 18px;
+    margin: 28px auto 10px;
+    min-height: 36px;
+    min-width: 280px;
+    padding: 8px 18px 8px 18px;
+    font-size: 18px;
+    line-height: 18px;
+    border-width: 1px;
+    border-radius: 4px;
+
+}
+
+.jfk-button:hover{
+  border-color: #2bbbbf;
+}
+
+    .jfk-button:visited{
+    color: #1d1d1d;
+    background-color: #2bbbbf!important;
+    border-color: #2bbbbf;
+    }
 
 // Aleks's changes
 figure {
