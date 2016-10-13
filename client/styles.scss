@@ -1,6 +1,10 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
 .article-body {
       margin: 3em auto 1em;
 }
@@ -127,7 +131,42 @@ textarea {
    border-color: #2bbbbf;
    }
 
-// Aleks's changes (Desktop styles)
+// CHANGES to layout
+
+
+
+.o-header__row.o-header__top {
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+figure {
+  width: 100vw;
+  margin: 0;
+  position: relative;
+}
+
+.article-head {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0) 7%,rgba(0,0,0,0.44) 67%,rgba(0,0,0,0.65) 96%);
+}
+
+.top-overlaid {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  width: 100vw;
+  padding: 0 50px 0 50px;
+}
+
+.o-typography-lead{
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: normal;
+  max-width: 610px;
+}
+
 @media only screen and (min-width: 740px) {
 
 
@@ -144,36 +183,13 @@ textarea {
       margin: 0 0 8px;
   }
 
-  .o-header__row.o-header__top {
-    position: absolute;
-    top: 0;
-    text-align: center;
-  }
-
-  figure {
-    width: 100vw;
-    margin: 0;
-    position: relative;
-  }
-
-  .article-head {
-    color: #fff;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0) 7%,rgba(0,0,0,0.44) 67%,rgba(0,0,0,0.65) 96%);
-  }
-
-  .top-overlaid {
-    position: absolute;
-    bottom: 20px;
-    color: #fff;
-    width: 100vw;
-    padding: 0 50px 0 50px;
-  }
-
   .o-typography-lead{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
     font-size: 26px;
     line-height: 28px;
     font-weight: normal;
     max-width: 610px;
   }
+
 
 }
