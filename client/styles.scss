@@ -161,6 +161,10 @@ figure {
   position: relative;
 }
 
+.img-desktop {
+  display: none;
+}
+
 .article-head {
   color: #fff;
   background: linear-gradient(to bottom, rgba(0,0,0,0) 6%,rgba(0,0,0,0) 7%,rgba(0,0,0,0.44) 67%,rgba(0,0,0,0.65) 96%);
@@ -182,10 +186,18 @@ figure {
 }
 
 @media only screen and (min-width: 740px) {
+
   .jfk-button{
     max-width: 400px;
   }
 
+  .img-desktop {
+    display: block;
+  }
+
+  .img-mobile {
+    display: none;
+  }
 
 
 }
@@ -209,4 +221,11 @@ figure {
   }
 
 
+  .img-desktop {
+    display: block;
+  }
+
+  .img-mobile {
+    display: none;
+  }
 }

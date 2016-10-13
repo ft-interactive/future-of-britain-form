@@ -18,7 +18,7 @@ export default () => ({ // eslint-disable-line
 
   topic: {
     name: 'Project',
-    url: '/foo',
+    url: 'https://www.ft.com/stream/topicsId/MWUzYzljMTEtMmU1NS00OTMzLWJiMGEtNDQ5NzgyYmJiNDBh-VG9waWNz',
   },
 
   // relatedArticle: {
