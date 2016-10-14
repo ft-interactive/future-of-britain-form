@@ -45,7 +45,7 @@ export default () => ({ // eslint-disable-line
   title: 'Future of Britain share your thoughts',
 
   // meta data
-  description: 'Join the Financial Times to brainstorm meaningful solutions for the future of Britain after Brexit',
+  description: 'Join the Financial Times to brainstorm meaningful solutions for the future of Britain',
 
   /*
   TODO: Select Twitter card type -
