@@ -61,7 +61,7 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  socialImage: '',
+  socialImage: 'https://image.webservices.ft.com/v1/images/raw/https%3A%2F%2Fig.ft.com%2Fstatic%2Ffuture-of-britain%2Fmaster.jpg?source=test&width=600&height=300&quality=lossless',
   socialHeadline: 'Future of Britain - share your thoughts',
   socialSummary:  'Join the FT to brainstorm meaningful solutions for the future of Britain',
 
