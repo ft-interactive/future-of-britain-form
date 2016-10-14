@@ -1,13 +1,74 @@
 @import 'o-colors/main';
 @import 'components/core/main';
 
+
 html {
   -webkit-font-smoothing: antialiased;
 }
 
+.o-header__row.o-header__top{
+position: static !important;
+}
+
+.o-header__container{
+  position: relative;
+  min-width: 240px;
+  max-width: 1220px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.o-header{
+  position: relative !important;
+  background-color: transparent !important;
+
+}
+
+.o-header__top-logo{
+  color:#FFF !important;
+}
+
+.o-header__top-logo>a{
+  width: 262px;
+  height: 22px;
+  background-image: url(https://image.webservices.ft.com/v1/images/raw/fticon:brand-ft-masthead?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg);
+}
+
+figure {
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background-image: url(Britannia--mobile.png);
+  background-repeat: no-repeat;
+}
+
+
+
+ .o-typography-heading1 {
+      font-family: FinancierDisplayWeb,serif;
+      line-height: 58px;
+      font-size: 58px;
+      font-weight: 500;
+      margin: 0 0 8px;
+  }
+
+  .o-typography-lead{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: normal;
+    max-width: 610px;
+  }
+
 .article-body {
       margin: 3em auto 1em;
 }
+
+
 
 
 .intro::first-letter {
@@ -126,7 +187,7 @@ margin-right: 4px;
     background-size: 18px;
     margin: 28px auto 10px;
     min-height: 39px;
-    min-width: 280px;
+    min-width: 100%;
     padding: 8px 18px 8px 18px;
     font-size: 18px;
     line-height: 18px;
@@ -155,11 +216,7 @@ margin-right: 4px;
   text-align: center;
 }
 
-figure {
-  width: 100vw;
-  margin: 0;
-  position: relative;
-}
+
 
 .img-desktop {
   display: none;
@@ -171,11 +228,11 @@ figure {
 }
 
 .top-overlaid {
-  position: absolute;
-  bottom: 20px;
-  color: #fff;
-  width: 100vw;
-  padding: 0 50px 0 50px;
+    position: relative;
+    bottom: 10px;
+    color: #fff;
+    width: 100vw;
+    padding: 0 50px 0 50px;
 }
 
 .o-typography-lead{
@@ -186,6 +243,20 @@ figure {
 }
 
 @media only screen and (min-width: 740px) {
+
+  .jfk-button{
+    max-width: 320px;
+  }
+
+  figure {
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background-image: url(Britannia--desktop.png);
+  background-repeat: no-repeat;
+}
+
 
   .jfk-button{
     max-width: 400px;
@@ -204,21 +275,21 @@ figure {
 
 @media only screen and (min-width: 980px) {
 
-  .o-typography-heading1 {
-      font-family: FinancierDisplayWeb,serif;
-      line-height: 58px;
-      font-size: 58px;
-      font-weight: 500;
-      margin: 0 0 8px;
-  }
+  figure {
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  background-image: url(Britannia--desktop.png);
+  background-repeat: no-repeat;
+}
 
-  .o-typography-lead{
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, .8);
-    font-size: 26px;
-    line-height: 28px;
-    font-weight: normal;
-    max-width: 610px;
-  }
+  .o-header__top-logo{
+  color:#FFF !important;
+  width: 262px;
+}
+
+ 
 
 
   .img-desktop {
