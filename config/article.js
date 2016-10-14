@@ -42,10 +42,10 @@ export default () => ({ // eslint-disable-line
   // ],
 
   // Appears in the HTML <title>
-  title: '',
+  title: 'Future of Britain share your thoughts',
 
   // meta data
-  description: '',
+  description: 'Join the Financial Times to brainstorm meaningful solutions for the future of Britain after Brexit',
 
   /*
   TODO: Select Twitter card type -
@@ -61,9 +61,9 @@ export default () => ({ // eslint-disable-line
         optional social meta data?
   */
   // General social
-  // socialImage: '',
-  // socialHeadline: '',
-  // socialSummary:  '',
+  socialImage: '',
+  socialHeadline: 'Future of Britain - share your thoughts',
+  socialSummary:  'Join the FT to brainstorm meaningful solutions for the future of Britain',
 
   // TWITTER
   // twitterImage: '',
