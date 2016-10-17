@@ -8,6 +8,7 @@ html {
 
 .o-header--minimal .o-header__masthead-mobile {
     display: block;
+    height:auto;
 }
 
 .o-header {
@@ -20,12 +21,13 @@ html {
 
 .o-header__container{
     position: relative;
+    height: auto;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     min-width: 240px;
     max-width: 1220px;
-    padding:0px 10px 0 10px;
+    // padding:0px 10px 0 10px;
 }
 
 .o-header__visually-hidden{
@@ -117,9 +119,6 @@ figure {
 
 .intro {
   margin: 2em auto 0;
-
-
- 
 }
 
   p > b{
@@ -308,10 +307,22 @@ margin-right: 4px;
 
 @media only screen and (min-width: 490px) {
 
-figure{
-background-image: url(Britannia--medium740.jpg);
 
+figure {
+  background-size: 100%;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-image: url(Britannia--medium740.jpg);
+  background-repeat: no-repeat;
 }
+
+ .intro {
+  margin: 3em auto 0;
+}
+
+
 
 
 }
@@ -319,6 +330,21 @@ background-image: url(Britannia--medium740.jpg);
 
 
 @media only screen and (min-width: 740px) {
+
+  .intro {
+  margin: 3em auto 0;
+}
+
+
+figure {
+  background-size: 100%;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+  position: relative;
+  background-image: url(Britannia--medium740.jpg);
+  background-repeat: no-repeat;
+}
 
   .o-header__masthead-mobile{
     width: 262px;
@@ -342,7 +368,7 @@ background-image: url(Britannia--medium740.jpg);
 
   .top-overlaid {
    position: absolute;
-   bottom: 22px;
+   bottom: 150px;
    color: #fff;
    width: 100vw;
    padding: 0 30px 0 80px;
@@ -358,15 +384,7 @@ background-image: url(Britannia--medium740.jpg);
     max-width: 320px;
   }
 
-figure {
-  background-size: cover;
-  height:auto;
-  width:100vh;
-  margin: 0 auto;
-  position: relative;
-  background-image: url(Britannia--medium740.jpg);
-  background-repeat: no-repeat;
-}
+
 
 span.ss-choice-item-control.goog-inline-block{
 margin-right: 8px;
@@ -383,11 +401,11 @@ margin-right: 8px;
 
 @media only screen and (min-width: 980px) {
 
-  .o-header__masthead-mobile{
-    width: 250px;
-    height: 15px;
-
+    .o-header__masthead-mobile{
+    width: 262px;
+    height: 22px;
   }
+
 
    .o-typography-heading1 {
     font-size: 58px !important;
@@ -395,10 +413,11 @@ margin-right: 8px;
     width: 100%;
 }
 
-  figure {
-  background-size: cover;
-  height: 100vh;
-  margin: 0;
+figure {
+ background-size: contain;
+ vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
   position: relative;
   background-image: url(Britannia--desktop.png);
   background-repeat: no-repeat;
@@ -407,12 +426,4 @@ margin-right: 8px;
 span.ss-choice-item-control.goog-inline-block{
 margin-right: 8px;
 }
-
-
-
-
-
-
-
-
 }
