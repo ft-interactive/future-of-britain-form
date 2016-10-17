@@ -125,7 +125,7 @@ figure {
   p > b{
     font-family: MetricWeb,sans-serif;
     font-weight: normal;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 17px;
     font-style: italic;
     color: #777;
@@ -192,6 +192,8 @@ textarea {
 
 .ss-choice-item input[type=radio]{
   border:1px solid #cec6b9;
+  width: 15px;
+  height: 15px;
 }
 
 
@@ -366,18 +368,15 @@ figure {
   background-repeat: no-repeat;
 }
 
+span.ss-choice-item-control.goog-inline-block{
+margin-right: 8px;
+}
+
 
   .jfk-button{
     max-width: 400px;
   }
 
-  // .img-desktop {
-  //   display: block;
-  // }
-  //
-  // .img-mobile {
-  //   display: none;
-  // }
 
 
 }
@@ -405,17 +404,15 @@ figure {
   background-repeat: no-repeat;
 }
 
+span.ss-choice-item-control.goog-inline-block{
+margin-right: 8px;
+}
 
 
 
 
 
 
-  // .img-desktop {
-  //   display: block;
-  // }
-  //
-  // .img-mobile {
-  //   display: none;
-  // }
+
+
 }
