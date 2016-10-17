@@ -75,7 +75,7 @@ html {
 
 figure {
   background-size: cover;
-  height: 92vh;
+  height: 100vh;
   margin: 0;
   position: relative;
   background-image: url(Britannia--mobile.png);
@@ -221,16 +221,16 @@ margin-right: 4px;
 
  .ss-section-description{
   font-family: MetricWeb,sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 22px;
-  color: #333;
-  font-weight: 500;
+  font-style: italic;
+  color: #777;
+  font-weight: normal;
+  > a {
+    font-style: normal;
+  }
  }
 
- .ss-section-description a {
- font-weight: 600;
- font-style: normal;
- }
 
 .jfk-button{
     font-family: MetricWeb,sans-serif;
@@ -344,8 +344,9 @@ background-image: url(Britannia--medium740.jpg);
 
 figure {
   background-size: cover;
-  height: 100vh;
-  margin: 0;
+  height:auto;
+  width:100vh;
+  margin: 0 auto;
   position: relative;
   background-image: url(Britannia--medium740.jpg);
   background-repeat: no-repeat;
