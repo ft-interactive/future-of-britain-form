@@ -117,7 +117,21 @@ figure {
 
 .intro {
   margin: 2em auto 0;
+
+
+ 
 }
+
+  p > b{
+    font-family: MetricWeb,sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 17px;
+    font-style: italic;
+    color: #777;
+  }
+
+
 
 .o-typography-body-wrapper {
     margin-top: 0;
