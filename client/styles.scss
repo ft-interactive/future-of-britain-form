@@ -346,6 +346,7 @@ figure {
   position: relative;
   background-image: url(Britannia--desktop.png);
   background-repeat: no-repeat;
+  background-position: center center;
 }
 
   .o-header__masthead-mobile{
@@ -422,7 +423,7 @@ figure {
   min-height: 100vh;
   margin: 0 auto;
   position: relative;
-  background-image: url(Britannia--desktop.png) no-repeat center center;
+  background-image: url(Britannia--desktop.png);
 }
 
 span.ss-choice-item-control.goog-inline-block{
