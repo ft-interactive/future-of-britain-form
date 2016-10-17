@@ -143,6 +143,7 @@ figure {
   line-height: 22px;
   font-weight: 600;
   color: #333333;
+  max-width: 95%;
 }
 
 .ss-q-title span {
@@ -166,7 +167,7 @@ li.ss-choice-item{
 input[type=text]{
   border: 1px solid #cec6b9;
   border-radius: 2px;
-  min-width: 280px;
+  min-width: 290px;
 }
 
 textarea {
@@ -184,6 +185,12 @@ textarea {
   font-family: MetricWeb,sans-serif;
   color:#c00;
   font-size: 16px;
+  line-height: 18px;
+  > i{
+    font-style: normal;
+    font-size: 16px;
+
+  }
 }
 
 span.ss-choice-item-control.goog-inline-block{
@@ -214,9 +221,15 @@ margin-right: 4px;
 
  .ss-section-description{
   font-family: MetricWeb,sans-serif;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 17px;
+  line-height: 22px;
   color: #333;
+  font-weight: 500;
+ }
+
+ .ss-section-description a {
+ font-weight: 600;
+ font-style: normal;
  }
 
 .jfk-button{
