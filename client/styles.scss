@@ -117,9 +117,7 @@ figure {
 
 }
 
-.intro {
-  margin: 2em auto 0;
-}
+
 
   p > b{
     font-family: MetricWeb,sans-serif;
@@ -319,8 +317,10 @@ figure {
   background-repeat: no-repeat;
 }
 
- .intro {
-  margin: 3em auto 0;
+.article-body > :not(.graphic){
+  max-width: 625px;
+    margin: 1.5em auto;
+    padding: 0 0.75em;
 }
 
 
